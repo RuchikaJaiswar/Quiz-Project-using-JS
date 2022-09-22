@@ -1,0 +1,52 @@
+* {
+margin: 0;
+padding: 0;
+font-weight: 500;
+}
+  
+.title{
+    font-size: 8rem;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+  }
+
+.sub-container{
+  width: 90vw;
+  background-image: linear-gradient(rgb(138, 138, 222),rgb(212, 163, 163),rgb(175, 216, 175));
+  padding: 3rem 8rem;
+  border-radius: 1rem;
+  box-shadow: 0 1rem 1rem -0.7rem rgba(0, 0, 0, 0.4);
+}
+
+.question{
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 1rem, 0, 4rem 0;
+}
+
+.sub-container li{
+  font-size: 1.5rem;
+  list-style-type: none;
+  margin-top: 1.2rem;
+  font-weight: bold;
+}
+
+input{
+  cursor: pointer;
+}
+
+.button {
+  font-size: 1.5rem;
+  outline: none;
+  padding: 1rem 2rem;
+  font-size: 300;
+  display: block;
+  margin: auto;
+  border: none;
+  background-color: rgb(189, 130, 244);
+}
+
+.button:hover{
+  background-color: rgb(119, 53, 180);
+}

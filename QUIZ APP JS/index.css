@@ -1,0 +1,128 @@
+.logo{
+    height: 30px;
+}
+
+.logo-container{
+    display: flex;
+    text-align: center;
+    align-items: center;
+
+}
+
+.hero{
+    background-color: rgba(51, 27, 86, 0.911);
+    display:flex;
+    position: relative;
+    display:grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 60% 40%;
+    padding: 24px;
+    background-image: linear-gradient(rgb(104, 25, 104),rgb(141, 69, 141),rgb(218, 125, 218));
+
+}
+
+.heimg{
+    height: 250px;
+    width: 250px;
+}
+
+.link{
+    text-align: center;
+    justify-items: center;
+    padding-right: 20px;
+    padding-left: 5px;
+}
+
+
+
+.a{
+    font-size: 4rem;
+    color:azure;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 400;
+    font-style:normal;
+    text-shadow: 2px 2px rgb(164, 164, 14);
+    
+}
+
+.b{
+    font-size: 2rem;
+    color:bisque;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 350;
+    font-style:normal;
+}
+
+
+.title{
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+    color: black;
+}
+.subtitle{
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color:rgb(9, 9, 62)
+}
+.categories{
+    margin: 1.5rem 5% 15px;
+}
+
+.btext{
+    background-image: url("./assets/images/tech.jpg");
+    height: 300px;
+    width: 300px;
+    position: relative;
+    color:azure;
+    align-items: center;
+    justify-items: center;
+    border-radius: 10px;
+    background-size: cover;
+    font-size: 2rem;
+}
+
+.ctext{
+    background-image: url("./assets/images/cap.jpg");
+    height: 300px;
+    width: 300px;
+    font-size: 2rem;
+    position:relative;
+    color:azure;
+    align-items: center;
+    justify-items: center;
+    border-radius: 10px;
+    background-size: cover;
+}
+
+.dtext{
+    background-image: url("./assets/images/football.jpg");
+    height: 300px;
+    width: 300px;
+    position: relative;
+    color:azure;
+    align-items: center;
+    justify-items: center;
+    border-radius: 10px;
+    background-size:cover;
+    font-size: 2rem;
+}
+
+.etext{
+    background-image: url("./assets/images/ggk.jpg");
+    height: 300px;
+    width: 300px;
+    position: relative;
+    color:azure;
+    align-items: center;
+    justify-items: center;
+    border-radius: 10px;
+    background-size: cover;
+    font-size: 2rem;
+}
+
+.c{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
